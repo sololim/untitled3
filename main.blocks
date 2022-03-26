@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="8pdA-/K-/KV`sY=J^tU*" x="-49" y="-499"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="controls_if" id="P%n|.Xv6r|!|PAEAfP=o"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="-w@-Thk.%i,Fh%jqkda4"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_sound_level" id="[kulrCZ;~Q_wv%.$6XI*"/></value><value name="B"><shadow type="math_number" id="W07Oq%7W[{N~]}YF_?!T"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="SoundExpression_playUntilDone" id="nUsDb=++Fk^GPXHqxeB6"><field name="this">soundExpression.happy</field><next><block type="device_show_leds" id="iuF*0#V}EO3Ll2sm0euE"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="Pluv6vR1Di:7Oo{`Q(~V"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="m)SlvDQ]aL0hDwl^1_f~" x="721" y="-414"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="playMelody" id="5B7mI)@OEr}:X+ij264Y"><value name="melody"><shadow type="melody_editor" id="_T#NH#O60sZQQ(C?DJj`"><field name="melody">"C5 G C5 G C5 G C5 G "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="FGGPB*V|Lcg=ch:k4)u]"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="|O{Y%cP2bDSOP8UEXkd-"><field name="LEDS">`
+        # . . # . 
+        . # . . # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="-v)#Y)qV[e{|q~_R[SRa" x="0" y="0"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="controls_if" id=")hL}5Ep[x%2l[Ero;T2J"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=",SZgG77=/gTi=O5SAOV$"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_sound_level" id="Vg^9^3@Eyii405s4g=6~"/></value><value name="B"><shadow type="math_number" id="s%*zwb5:I+n:gD{+Y*N_"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_start_melody" id="5uKgXRq7k2{:bmHc1V$g"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="yP}(A9xR3gG%gXfIxK;C"><field name="melody">Melodies.Wawawawaa</field></block></value><next><block type="device_show_leds" id="eY}[/h$pcAi~O#jdPAof"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement></block></statement></block><block type="device_button_event" id=")WVkr-1}1s]]${5Tj#tZ" x="874" y="15"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="SoundExpression_playUntilDone" id="!3,b~b/KEoTsS@z2+B*i"><field name="this">soundExpression.twinkle</field><next><block type="device_show_leds" id="19N#EXLtw,[Pa0pdCONh"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field></block></next></block></statement></block><block type="device_button_event" id="Z;/PjGNIhldR~mBzFm4N" x="538" y="45"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="SoundExpression_playUntilDone" id="21@,/b@(u(*/e[_+@2;7"><field name="this">soundExpression.soaring</field><next><block type="device_show_leds" id="[}S(ZP{~X3/Cm4_-%Zx("><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        . # . # . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block></xml>
